@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-self: flex-end;
+    background: #000;
+    padding: 5px;
+}
+
+.nav-header{
+    margin: 5px auto 5px 20px;
+}
+
+.item{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+}
+
+.item:hover{
+    background: tomato;
+    border-radius: 3px;
+}
+
+.text{
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+table{
+    margin: 20px auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+td{
+    text-align: center;
+}
+th{
+    border-bottom: 3px solid #ccc;
+}
+tbody > tr:hover{
+    background: gray;
+}

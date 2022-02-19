@@ -41,6 +41,7 @@ nav{
         transform: translate(-5%,-50%);
         z-index: 2;
     }
+    
     .nav-links{
         position: fixed;
         background: #5b78c7;
